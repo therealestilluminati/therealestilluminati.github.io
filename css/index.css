@@ -1,0 +1,71 @@
+body {
+  height: 100%;
+  background: url('../images/legs@2x.png') rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+  font: 700 2.375em/1.38 Montserrat;
+  color: rgb(0, 0, 0);
+}
+
+.apply {
+  display: block;
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 1;
+  width: 13.5794270833%;
+  padding: 12px;
+  margin: 86px 0 0 10%;
+  border-radius: 3px;
+  background-color: rgb(235, 219, 26);
+  font-size: 0.526em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  transition: all 0.5s ease;
+}
+
+.apply:hover {
+  background-color: #BCB01A;
+}
+
+.endtime {
+  position: relative;
+  float: left;
+  z-index: 2;
+  margin: 102px 0 0 1.51432%;
+  font-size: 0.421em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.qoute {
+  float: left;
+  clear: both;
+  margin: 37px 0 0 10%;
+  font-size: 0.421em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+._text {
+  float: left;
+  margin: 131px 0 0 10%;
+  font-size: 1em;
+  line-height: 1.58;
+  color: rgb(255, 255, 255);
+}
+
+._text span {
+  font-family: inherit;
+  font-style: inherit;
+  color: inherit;
+}
+
+.endtime span,
+.qoute span {
+  color: rgb(255, 255, 255);
+}
