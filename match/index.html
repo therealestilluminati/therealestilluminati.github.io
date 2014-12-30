@@ -83,10 +83,11 @@ font: 700 2.375em/1.38 Montserrat;
 <script>
 var phrases = ['Using NLP','Processing Big Data','Using Machine Learning','Buying a booth @ SXSW','L e a r n i n g','Connecting to the Internet of Things','Using Node.JS','Posting to PH','Yo.','Being acquired','Pivoting'];
 var i = 0;
+
 $('.progress-bar').animate(
     {width:'100%'}, 
     {
-duration:10000,
+    duration:10000,
 step: function(now, fx) {
 var data= Math.round(now);
 $(this).html(data + '%');
@@ -98,6 +99,7 @@ i++;
 }
 }        
 );
+$('.progress-bar, #text, #title, #vh').delay("10650").fadeOut();
 </script>
 </body>
 </html>
