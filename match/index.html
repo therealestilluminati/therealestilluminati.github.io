@@ -10,6 +10,10 @@
 body{
   background:black;
 }
+
+#loader{
+  background:black;
+}
 #vh {
   font: 700 1.5em/1.38 Montserrat;
   color:#F8E71C;
@@ -39,11 +43,6 @@ body{
   right: 0;
 font: 700 2.375em/1.38 Montserrat;
   color:white;
-  
-  
-  
-
-   
 }
 
 #text {
@@ -70,17 +69,44 @@ font: 700 2.375em/1.38 Montserrat;
   border-radius: 6px;
   margin-top: -5px;
 }
+
+.profile{
+
+}
+
+#avatar{
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  height: 120px;
+  
+  top: 180;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
 </style>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
 <body>
+  <div id="loader">
   <div id="title">Matching...</div>
 <div id="vh">
   <div class="progress-bar"></div>
   
 </div>
 <div class="_text" id="text"></div>
+</div>
+
+<div class="profile">
+    <img src="images/avatar.jpg" id="avatar">
+</div>
+
+
+
 <script>
+$('.profile').hide();
 var phrases = ['Using NLP','Processing Big Data','Using Machine Learning','Buying a booth @ SXSW','L e a r n i n g','Connecting to the Internet of Things','Using Node.JS','Posting to PH','Yo.','Being acquired','Pivoting'];
 var i = 0;
 
@@ -99,7 +125,8 @@ i++;
 }
 }        
 );
-$('.progress-bar, #text, #title, #vh').delay("10650").fadeOut();
+$('#loader').delay("10650").fadeOut();
+$('.profile').delay("11000").fadeIn();
 </script>
 </body>
 </html>
