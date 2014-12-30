@@ -1,13 +1,26 @@
 <html>
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>The Realest Illuminati</title>
+  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700," rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/standardize.css">
+  <link rel="stylesheet" href="css/index-grid.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
 <style>
+body{
+  background:black;
+}
 #vh {
+  font: 700 1.5em/1.38 Montserrat;
+  color:#F8E71C;
   border-radius: 15px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
   padding: 25px;
-  width: 100%;
-  height: 50%;
-  background: black;
+  width: 80%;
+  height: 50px;
+  background: #F8E71C;
   text-align: center;
   margin: auto;
   position: absolute;
@@ -16,26 +29,40 @@
   bottom: 0;
   right: 0;
 }
+
+#title{
+font: 700 2.375em/1.38 Montserrat;
+  color:#F8E71C;
+}
+
 #text {
-  color:white;
+  font: 700 1.5em/1.38 Montserrat;
+  color:#F8E71C;
+  position: absolute;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
 }
 .progress-bar {
   height: 50px;
   width: 0;
   left:0;
   text-align:center;
-  background:white;
+  background:black;
 }
 </style>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
 <body>
+  <div id="title">Matching...</div>
 <div id="vh">
   <div class="progress-bar"></div>
-  <div id="text"></div>
+  
 </div>
+<div class="_text" id="text"></div>
 <script>
-var phrases = ['Using NLP','Processing Big Data','Using Machine Learning','The Machine is Learning','L e a r n i n g','Connecting to the Internet of Things','Initializing NLP'];
+var phrases = ['Using NLP','Processing Big Data','Using Machine Learning','Buying a booth @ SXSW','L e a r n i n g','Connecting to the Internet of Things','Initializing NLP'];
 var i = 0;
 $('.progress-bar').animate(
     {width:'100%'}, 
