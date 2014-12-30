@@ -78,9 +78,14 @@ font: 700 2.375em/1.38 Montserrat;
   position: absolute;
   text-align: center;
   margin: auto;
-  height: 120px;
+  height: 100%;
+  max-height: 240px;
+  border-radius: 60px;
+  -moz-border-radius: 120px;
+  -khtml-border-radius: 120px;
+  -webkit-border-radius: 120px;
   
-  top: 180;
+  top: -360;
   left: 0;
   bottom: 0;
   right: 0;
@@ -101,6 +106,8 @@ font: 700 2.375em/1.38 Montserrat;
 
 <div class="profile">
     <img src="images/avatar.jpg" id="avatar">
+    <div id="title" style="top: -30;font: 700 1.5em/1.38 Montserrat;">You got matched with...</div>
+    <div id="title" style="top: 30;color:#F8E71C;">Henry Boldiszar</div>
 </div>
 
 
@@ -113,7 +120,7 @@ var i = 0;
 $('.progress-bar').animate(
     {width:'100%'}, 
     {
-    duration:10000,
+    duration:1000,
 step: function(now, fx) {
 var data= Math.round(now);
 $(this).html(data + '%');
@@ -125,8 +132,8 @@ i++;
 }
 }        
 );
-$('#loader').delay("10650").fadeOut();
-$('.profile').delay("11000").fadeIn();
+$('#loader').delay("1065").fadeOut();
+$('.profile').delay("1100").fadeIn();
 </script>
 </body>
 </html>
