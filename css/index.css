@@ -53,8 +53,9 @@ body {
 }
 
 ._text {
+  width: 60%;
   float: left;
-  margin: 131px 0 0 10%;
+  margin: 10% 0 0 10%;
   font-size: 1em;
   line-height: 1.58;
   color: rgb(255, 255, 255);
