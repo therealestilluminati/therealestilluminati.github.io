@@ -17,7 +17,7 @@ body {
   width: 17%;
   min-width: 200px;
   padding: 12px;
-  margin: 86px 0 0 10%;
+  margin: 40px 0 0 10%;
   border-radius: 3px;
   background-color: rgb(235, 219, 26);
   font-size: 0.526em;
@@ -43,6 +43,7 @@ body {
 }
 
 .qoute {
+  width: 70%;
   float: left;
   clear: both;
   margin: 37px 0 0 10%;
