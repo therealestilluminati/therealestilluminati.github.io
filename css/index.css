@@ -17,7 +17,7 @@ body {
   width: 17%;
   min-width: 200px;
   padding: 12px;
-  margin: 40px 0 0 10%;
+  margin: 30px 0 0 10%;
   border-radius: 3px;
   background-color: rgb(235, 219, 26);
   font-size: 0.526em;
@@ -56,7 +56,7 @@ body {
 ._text {
   width: 80%;
   float: left;
-  margin: 10% 0 0 10%;
+  margin: 8% 0 0 10%;
   font-size: 1em;
   line-height: 1.58;
   color: rgb(255, 255, 255);
