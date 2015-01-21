@@ -1,8 +1,8 @@
 body {
   height: 100%;
-  background: url('../images/legs@2x.png') rgb(0, 0, 0);
+  background: url('../images/long_legs@2x.png') rgb(0, 0, 0);
   background-repeat: no-repeat;
-  background-size: cover;
+  
   background-position: right top;
   font: 700 2.375em/1.38 Montserrat;
   color: rgb(0, 0, 0);
