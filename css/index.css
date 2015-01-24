@@ -5,7 +5,7 @@ body {
   background-size: cover;
   background-position: left top;
   font: 700 2.375em/1.38 Montserrat;
-  color: rgb(0, 0, 0);
+  background-color: #1A3910;
 }
 
 .apply {
@@ -19,12 +19,13 @@ body {
   padding: 12px;
   margin: 24px 0 0 10%;
   border-radius: 3px;
-  background-color: rgb(235, 219, 26);
+  background-color: #89C333;
   font-size: 0.526em;
   line-height: 1.38;
   text-align: center;
   color: rgb(0, 0, 0);
   transition: all 0.5s ease;
+  color:white;
 }
 
 .apply:hover {
@@ -58,6 +59,15 @@ body {
   float: left;
   margin: 8% 0 0 10%;
   font-size: 1em;
+  line-height: 1.58;
+  color: rgb(255, 255, 255);
+}
+
+._text2 {
+  width: 80%;
+  float: left;
+  margin: 2% 0 0 10%;
+  font-size: 0.7em;
   line-height: 1.58;
   color: rgb(255, 255, 255);
 }
