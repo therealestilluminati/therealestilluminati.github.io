@@ -177,7 +177,7 @@ var i = 0;
 $('.progress-bar').animate(
     {width:'100%'}, 
     {
-    duration:1000  ,
+    duration:10000  ,
 step: function(now, fx) {
 var data= Math.round(now);
 $(this).html(data + '%');
@@ -189,8 +189,8 @@ i++;
 }
 }        
 );
-$('#loader').delay("1065").fadeOut();
-$('.profile').delay("1100").fadeIn();
+$('#loader').delay("10650").fadeOut();
+$('.profile').delay("11000").fadeIn();
 </script>
 </body>
 </html>
